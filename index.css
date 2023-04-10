@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.title {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height :250px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title > button {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius : 50px;
+    color: #fff;
+    margin-top : 20px;
+}
+
+.title > button:hover {
+    border: 2px solid #fff;
+}
+
+.cards{
+    width: 1200px;
+    margin : 20px auto;
+}
+
+.comments{
+    color: grey;
+}
+
+.post{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px grey;
+}
+
+.btns{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btns > button {
+    margin: 5px;
+}
